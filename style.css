@@ -1,0 +1,42 @@
+.carousel-inner{
+    width: 270px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-itemactive{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color:brown;
+    
+}
+
+.section{
+    margin-top: 50px    ;
+}
+.h1 {
+    font-size: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin-top: 100px;
+
+}
+
+.h2{
+    font-size: 5px;
+}
+
+.market {
+    margin-top: 40px;
+    border-radius: 50px;
+    column-rule-style: dashed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+   
+
+}
