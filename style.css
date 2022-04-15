@@ -1,14 +1,4 @@
-.carousel-inner{
-    width: 270px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
 
-.carousel-itemactive{
-    display: flex;
-    justify-content: center;
-}
 
 .card{
     background-color:brown;
@@ -33,10 +23,15 @@
 .market {
     margin-top: 40px;
     border-radius: 50px;
-    column-rule-style: dashed;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
-   
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
 
+.carousel-item active{
+     display: flex;
+     justify-content: center;
 }
